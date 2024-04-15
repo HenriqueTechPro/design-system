@@ -11,9 +11,8 @@
     "release": "turbo run build --filter=!docs && changeset publish"
   },
   "devDependencies": {
-    "turbo": "^1.13.2"
-  },
-  "dependencies": {
+    "turbo": "^1.13.2",
     "@changesets/cli": "^2.27.1"
   }
+  
 }
