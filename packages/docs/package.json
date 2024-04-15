@@ -10,7 +10,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
-  "author": "Domene",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "@ignite-ui-domene/eslint-config": "*",
