@@ -21,5 +21,7 @@ export const colors = {
 
   yellow500: '#FFCC00',
   yellow700: '#FFB300',
+
+  test: "#fff",
 }
 
