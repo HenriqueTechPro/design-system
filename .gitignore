@@ -1,0 +1,9 @@
+node_modules
+
+packages/**/dist
+
+storybook-static
+
+.turbo
+
+/anotation.md
