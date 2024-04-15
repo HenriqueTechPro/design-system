@@ -6,4 +6,6 @@ storybook-static
 
 .turbo
 
+.env
+
 /anotation.md
