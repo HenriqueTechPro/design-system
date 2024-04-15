@@ -8,9 +8,8 @@ module.exports = {
     getAbsolutePath("@storybook/addon-interactions"),
     getAbsolutePath("@storybook/addon-a11y"),
     getAbsolutePath("@storybook/addon-mdx-gfm"),
-    "@chromatic-com/storybook"
+    getAbsolutePath("@chromatic-com/storybook"),
   ],
-
   "framework": {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {}
@@ -32,6 +31,7 @@ module.exports = {
     autodocs: true
   }
 }
+
 function getAbsolutePath(value) {
   return dirname(require.resolve(join(value, "package.json")));
 }
