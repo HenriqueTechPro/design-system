@@ -30,5 +30,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          TURBO_TEAM: HenriqueTechPro
+            TURBO_TOKEN: cC0XQkurg3H4XRUWQt7AqCjM
+            TURBO_TEAM: henriquetechpros-projects
