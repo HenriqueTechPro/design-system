@@ -74,8 +74,6 @@ export const ToastContainer = styled(Toast.Root, {
       normal: {
         background: '$gray800',
         border: '1px solid $gray600',
-        
-        
 
         h2: {
           color: '$white',
@@ -155,6 +153,4 @@ export const CloseButton = styled(Toast.Close, {
   },
 })
 
-export const ToastViewport = styled(Toast.Viewport, {
-  
-})
+export const ToastViewport = styled(Toast.Viewport, {})
